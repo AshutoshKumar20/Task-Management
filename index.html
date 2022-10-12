@@ -108,7 +108,7 @@
                 <div class="col-md-6">
                     <div class="input-group flex-nowrap shadow-lg rounded">
                         <input type="search" class="form-control" placeholder="Search Task..." aria-label="Search Task"
-                            aria-describedby="addon-wrapping" />
+                            aria-describedby="addon-wrapping" oninput="searchTask.apply(this, arguments)" />
                         <span class="input-group-text" id="addon-wrapper">
                             <i class="fas fa-search"></i>
                         </span>
@@ -119,7 +119,7 @@
 
         <section class="mt-4">
             <div class="row task__contents">
-                >
+
             </div>
         </section>
     </div>
